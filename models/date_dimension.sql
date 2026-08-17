@@ -4,3 +4,4 @@ with CTE as (
     {{ source('proj_dbt', 'transactions') }}
 )
 select * from CTE
+

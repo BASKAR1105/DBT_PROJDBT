@@ -1,5 +1,5 @@
 sources:
-  - name: PROJ_DBT
+  - name: PROJ_BASS
     database: PROJ_DBT
     schema: public
     tables:

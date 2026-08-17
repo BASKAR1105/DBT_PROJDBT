@@ -1,7 +1,8 @@
 with CTE as (
     select modifieddate 
     from
-    {{ source('proj_dbt', 'transactions') }}
+    {{ source('PROJ_BASS', 'TRANSACTIONS') }}
 )
 select * from CTE
+
 

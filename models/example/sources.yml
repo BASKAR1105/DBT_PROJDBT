@@ -1,6 +1,9 @@
+version: 2
+
 sources:
-  - name: PROJ_BASS
+  - name: PROJ_DBT
     database: PROJ_DBT
     schema: public
+
     tables:
       - name: TRANSACTIONS
